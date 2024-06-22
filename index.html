@@ -7,80 +7,205 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="skill_box.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     
 </head>
 <body id="my-scrollbar">
-    <div class="main">
+    <div class="main_1" id="dot-container">
         <img src="assests/profile_pic.jpg" alt="" class="profile_pic">
-        <h2 class="subtitle">Hi,👋</h2>
-        <p class="head">I'm <span class="heading"></span></p>
-        <!-- <p class="detail">A dedicated <span class="bold-color">Frontend</span> web developer and <span class="bold-color">UI/UX</span> enthusiast focused<br>in designing gorgeous pixel-perfect interactive<br>websites/applications.!</p> -->
+        <div class="typed_js">
+            <h2 class="subtitle">Hi,👋</h2>
+            <p class="head">I'm <span class="heading"></span></p>
+        </div>
         <div class="paragraph">
             <p class="detail">A dedicated <span class="bold-color">Frontend</span> web developer and <span class="bold-color">UI/UX</span> enthusiast focused</p>
             <p class="detail">in designing gorgeous pixel-perfect interactive</p>
             <p class="detail">websites/applications.!</p>
         </div>
-        
-<!--         <button class="reach-btn"><span class="text">Reach Out</span></button> -->
-        <button class="reach-btn"><span class="text"><a href="https://www.linkedin.com/in/debanga-dutta-3021281b4/" target="_blank">Reach Out</a></span></button>
-        <!-- <a id="navlink" href="#target"><ion-icon class="scroll-down" name="chevron-down-outline"></ion-icon></a> -->
-        <!-- <a id="navlink" ><ion-icon class="scroll-down" name="chevron-down-outline"></ion-icon></a> -->
-        
-        <!-- <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, illum!</p> -->
-        <!-- <button class="project-section"><a href="https://www.google.com" target=”_blank”><span class="text">LET'S VISIT</span></a></button> -->
-        <!-- <div id="debugger"></div> -->
-        <!-- <a id="navlink" href="#target"><ion-icon class="scroll-down" name="caret-down-circle-outline"></ion-icon></a> -->
-        <!-- <a id="navlink" href="#target"><i id="scroll-down" class="bi bi-arrow-down-square-fill"></i></a> -->
-        <!-- <a id="navlink" href="#target"><i id="down" class='bx bxs-chevrons-down bx-flashing' ></i></a> -->
-        
+        <button class="reach-btn"><span class="text"><a href="#resume"> Reach Out </a></span></button>
+        <div class="navbar">
+            <div class="nav-container">
+                <!-- <h1 class="tech_heading" > We don't just build websites, we build websites that SELLS ➺ Dr. Chris Dayagdag</h1> -->
+                <div class="nav-logos">
+                    <a href="http://linkedin.com" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="target" class="second-page">
-        
-        <div class="skill_container">
-            <h1 class="tech_heading">My Skills</h1>
 
 
 
-            <div class="tech_bars">
-                
-                <h2 class="tech_subtitle">Primary Skills:</h2>
 
-
-                <div class="progress_bar">
-                                    
-                    <div class="bar">
-                    <ion-icon name="logo-html5" class="html"></ion-icon>
-                    <p class="tech">HTML</p>
+    <div id="target" class="second-page">       
+        <div class="education-section">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <!-- <div class="timeline-icon"><ion-icon name="school-outline"></ion-icon>  </div> -->
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science and Engineering</h3>
+                        <span>Assam Kaziranga University, 2023 - 2027</span>
+                        <p>Relevant coursework: Software Engineering, Database Management, Networks</p>
                     </div>
-
-                    <div class="progress_html"></div>
-
-                    <div class="bar">
-                    <ion-icon name="logo-css3" class="css"></ion-icon>
-                    <p class="tech">CSS</p>
-                    </div>    
-                    <div class="progress_css"></div>
-
-                    <div class="bar">
-                    <ion-icon name="logo-javascript" class="JS"></ion-icon>
-                    <p class="tech">JavaScript</p>
-                    </div>
-                    <div class="progress_js"></div>
-                
                 </div>
-
+                <div class="timeline-item">
+                    <!-- <div class="timeline-icon"><ion-icon name="school-outline"></ion-icon></i></div> -->
+                    <div class="timeline-content">
+                        <h3> Higher Secondary </h3>
+                        <span>Matrix Senior Secondary School, 2020 - 2022</span>
+                        <p>Relevant coursework: Physics, Chemistry, Mathematics, Biology </p>
+                    </div>
+                </div>
             </div>
+        </div>
 
-
+        <div class="education-section">
+            <h2>Internship</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <!-- <div class="timeline-icon"><ion-icon name="school-outline"></ion-icon>  </div> -->
+                    <div class="timeline-content">
+                        <h3>B.Tech in Computer Science and Engineering</h3>
+                        <span>Assam Kaziranga University, 2023 - 2027</span>
+                        <p>Relevant coursework: Software Engineering, Database Management, Networks</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <!-- <div class="timeline-icon"><ion-icon name="school-outline"></ion-icon></i></div> -->
+                    <div class="timeline-content">
+                        <h3> Higher Secondary </h3>
+                        <span>Matrix Senior Secondary School, 2020 - 2022</span>
+                        <p>Relevant coursework: Physics, Chemistry, Mathematics, Biology </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
+
+
+
+
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
-</body>
+
+    <div class="third-section">
+        <div class="skills-section">
+            <h2>Skills & Expertise</h2>
+            <div class="skills-categories">
+                <div class="category">
+                    <h3>Programming Languages <i class="ri-arrow-right-down-line"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <i class='bx bxl-python'></i>
+                            <h3>Python</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class='bx bxl-javascript' ></i>
+                            <h3>JavaScript</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Tools & Frameworks <i class="ri-arrow-right-down-line"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <i class='bx bxl-react' ></i>
+                            <h3>React</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class='bx bxl-nodejs' ></i>
+                            <h3>Node.js</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Version Control <i class="ri-arrow-right-down-line"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <i class='bx bxl-nodejs' ></i>
+                            <h3>Git</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class='bx bxl-github' ></i>
+                            <h3>GitHub</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <i class='bx bxl-google-cloud' ></i>
+                            <h3>Google Colab</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 65%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="category">
+                    <h3>Design Tools <i class="ri-arrow-right-down-line"></i></h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <i class='bx bxl-figma' ></i>
+                            <h3>Figma</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="tools icon/adobe-photoshop.svg" alt="">
+                            <h3>Photoshop</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="tools icon/adobe-xd.svg" alt="">
+                            <h3>XD</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <img src="tools icon/adobe-after-effects.svg" alt="">
+                            <h3>After Effects</h3>
+                            <div class="skill-bar">
+                                <div class="skill-level" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<!-- <script src="https://unpkg.com/lenis@1.1.3/dist/lenis.min.js"></script>  -->
 <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 <script src="script.js"></script>
- <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script> -->
+<script src="index.js"></script>
+<script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    
+</script>
+
+</body>
 </html>
